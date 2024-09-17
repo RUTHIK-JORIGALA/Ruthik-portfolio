@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app{
+  /* background-color: ; */
+  color: #000;
+}
+/* base: #8E9DA8 */
+/* grayesh-red : #4E363A */
+
+/* 
+base:ABB8C1
+main:4C5C68
+accent:684C50
+accent:  67684C
+
+*/
+
+.page-heading{
+  font-size: clamp(2rem,3.5vw, 4vw);
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 30px;
+  font-family: "Play", sans-serif;
+}

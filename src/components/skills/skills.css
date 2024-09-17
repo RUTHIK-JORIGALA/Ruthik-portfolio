@@ -1,0 +1,86 @@
+
+.skills{
+    height: 100%;
+    width: 100%;
+    position: relative;
+
+}
+.skills-bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    background-color: lightgray;
+    overflow: hidden;
+
+}
+.skills-bg>img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    background-size: auto;
+}
+.skills-container{
+    max-width: 1300px;
+    margin: auto;
+    z-index: 2;
+    padding: 50px 10px;
+}
+
+.skills-inner-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+.skill-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    transition: 0.2s ease;
+}
+.skill-container:hover{
+    scale: 0.95;
+}
+.skill-img-container{
+    padding: 15px 10px;
+    padding-bottom: 25px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.skill-img-container>img{
+    padding-bottom: 20px;
+    width: 100%;
+
+}
+.skill-img-container.js>img{
+    width: 80%;
+    
+}
+
+.skill-name{
+    position: absolute;
+    bottom: 0;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 450px){
+
+    .skill-img-container{
+        padding: 10px 5px;
+        padding-bottom: 25px;
+        width: 180px;
+        
+    }
+    .skill-name{
+        
+        font-size: 1rem;
+    }
+}

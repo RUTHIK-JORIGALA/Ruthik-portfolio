@@ -1,0 +1,50 @@
+.experience{
+    position: relative;
+}
+.experience-bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    background-color: lightgray;
+    overflow: hidden;
+
+}
+.experience-bg>img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+.experience-container{
+    max-width: 1300px;
+    margin: auto;
+    padding: 50px 30px;
+    
+}
+.experience1{
+    display: flex;
+    gap: 20px;
+}
+.experience-text{
+    font-size: 1.5rem;
+}
+.experience-text p{
+    font-family: "Dosis", sans-serif;
+}
+.experience-image img{
+    width: 200px;
+    border-radius: 15px;
+}
+
+@media (max-width: 768px){
+    .experience1{
+        flex-direction:column-reverse;
+        align-items: center;
+    }
+    .experience-text{
+        font-size: 1.2rem;
+    }
+}
