@@ -6,6 +6,7 @@
 .app{
   /* background-color: ; */
   color: #000;
+
 }
 /* base: #8E9DA8 */
 /* grayesh-red : #4E363A */
@@ -24,4 +25,9 @@ accent:  67684C
   text-decoration: underline;
   margin-bottom: 30px;
   font-family: "Play", sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
 }

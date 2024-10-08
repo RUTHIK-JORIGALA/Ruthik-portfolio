@@ -5,7 +5,7 @@ import lbLogo from "../../assets/Logo-03.jpg"
 
 const Experience = () => {
   return (
-    <div className='experience'>
+    <div className='experience' id='experience'>
          <div className="experience-bg">
             <img src={bgExperience} alt="" />
         </div>

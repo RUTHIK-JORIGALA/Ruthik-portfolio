@@ -16,11 +16,11 @@ import redux from "../../assets/skills/redux.png"
 
 const Skills = () => {
   return (
-    <div className='skills'>
+    <div className='skills' >
         <div className="skills-bg">
             <img src={bgSkill} alt="" />
         </div>
-      <div className="skills-container">
+      <div className="skills-container" >
         <h1 className='page-heading'>SKILLS</h1>
 
         <div className="skills-inner-container">
