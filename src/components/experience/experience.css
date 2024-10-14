@@ -28,11 +28,13 @@
     display: flex;
     gap: 20px;
 }
-.experience-text{
-    font-size: 1.5rem;
-}
+
 .experience-text p{
-    font-family: "Dosis", sans-serif;
+    font-family: "Geologica", sans-serif;
+}
+.experience-text p span{
+    color: rgba(0,0,0,0.6);
+    margin-left: 8px;
 }
 .experience-image img{
     width: 200px;
@@ -45,6 +47,6 @@
         align-items: center;
     }
     .experience-text{
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 }

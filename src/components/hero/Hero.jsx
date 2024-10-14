@@ -3,6 +3,7 @@ import "./hero.css";
 import bgExperience from "../../assets/bg-1.jpg";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import IconCloud from "../IconsGlobe";
+import resume from "../../assets/RR.pdf";
 
 const Hero = () => {
   const slugs = [
@@ -28,6 +29,23 @@ const Hero = () => {
     "visualstudiocode",
     "figma",
   ];
+
+  const handleDownloadResume = () => {
+    // using Java Script method to get PDF file
+    fetch(resume).then((response) => {
+      response.blob().then((blob) => {
+        // Creating new object of PDF file
+        const fileURL = window.URL.createObjectURL(blob);
+
+        // Setting various property values
+        let alink = document.createElement("a");
+        alink.href = fileURL;
+        alink.download = "RuthikResume.pdf";
+        alink.click();
+      });
+    });
+  };
+
   return (
     <div className="hero">
       <div className="hero-container ">
@@ -43,7 +61,7 @@ const Hero = () => {
             animations. Let's build something amazing together.
           </p>
           <div className="hero-text-interactions">
-            <button className="button">
+            <button className="button" onClick={handleDownloadResume}>
               Download Resume
               <svg
                 fill="none"

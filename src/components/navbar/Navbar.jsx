@@ -49,12 +49,26 @@ const Navbar = () => {
             to="experience"
             spy={true}
             smooth={true}
-            offset={-70}
+            offset={-60}
             duration={500}
             onSetActive={handleSetActive}
             onClick={toggleMenu}
           >
             Experience
+          </Link>
+        </li>
+        <li>
+          <Link
+            activeClass="active"
+            to="projects"
+            spy={true}
+            smooth={true}
+            offset={-90}
+            duration={500}
+            onSetActive={handleSetActive}
+            onClick={toggleMenu}
+          >
+            Projects
           </Link>
         </li>
         <li>

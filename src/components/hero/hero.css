@@ -28,9 +28,7 @@
 .hero-text{
     display: flex;
     flex-direction: column;
-    gap: 1rem;
-    /* mix-blend-mode: difference; */
-    
+    gap: 1rem;    
     font-family: "Geologica", sans-serif;
 }
 .hero-text h1{

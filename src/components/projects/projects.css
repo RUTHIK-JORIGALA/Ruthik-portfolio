@@ -1,0 +1,67 @@
+
+.projects{
+    position: relative;
+}
+
+.projects-inner-container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 10px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.project-container{
+    /* height: 300px; */
+    width: 500px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+figure img{
+    width: 100%;
+    border-radius: 5px;
+}
+figure figcaption{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+.project-contrrols{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+
+
+
+/* From Uiverse.io by adamgiebl */ 
+.btn {
+    font-size: 12px;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    will-change: box-shadow,transform;
+    background: radial-gradient( 100% 100% at 100% 0%, #ABB8C1 0%, #5c5c5c 100% );
+    box-shadow: 0px 0.01em 0.01em rgb(45 35 66 / 40%), 0px 0.3em 0.7em -0.01em rgb(45 35 66 / 30%), inset 0px -0.01em 0px rgb(58 65 111 / 50%);
+    padding: 0 2em;
+    border-radius: 0.3em;
+    color: #fff;
+    height: 2.6em;
+    text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+    transition: box-shadow 0.15s ease, transform 0.15s ease;
+  }
+  
+  .btn:hover {
+    box-shadow: 0px 0.1em 0.2em rgb(45 35 66 / 40%), 0px 0.4em 0.7em -0.1em rgb(45 35 66 / 30%), inset 0px -0.1em 0px #000;
+    transform: translateY(-0.1em);
+  }
+  
+  .btn:active {
+    box-shadow: inset 0px 0.1em 0.6em #000;
+    transform: translateY(0em);
+  }

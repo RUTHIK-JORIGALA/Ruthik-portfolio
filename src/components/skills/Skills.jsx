@@ -42,14 +42,14 @@ const Skills = () => {
                     <img src={js} alt="html" />
                 </div>
                 
-                <h5 className='skill-name'>JAVASCRIPT</h5>
+                <h5 className='skill-name'>JAVA SCRIPT</h5>
             </div>
             <div className="skill-container">
                 <div className='skill-img-container'>
                     <img src={ts} alt="html" />
                 </div>
                 
-                <h5 className='skill-name'>TYPESCRIPT</h5>
+                <h5 className='skill-name'>TYPE SCRIPT</h5>
             </div>
             <div className="skill-container">
                 <div className='skill-img-container'>
