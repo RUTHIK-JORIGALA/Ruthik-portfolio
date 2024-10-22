@@ -1,6 +1,5 @@
 import React from "react";
 import "./hero.css";
-import bgExperience from "../../assets/bg-1.jpg";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import IconCloud from "../IconsGlobe";
 import resume from "../../assets/RR.pdf";
@@ -49,9 +48,6 @@ const Hero = () => {
   return (
     <div className="hero">
       <div className="hero-container ">
-        <div className="hero-bg">
-          <img src={bgExperience} alt="" />
-        </div>
         <div className="hero-text">
           <h1>Ruthik Jorigala</h1>
           <h4>Fullstack developer</h4>

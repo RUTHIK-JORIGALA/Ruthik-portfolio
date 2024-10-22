@@ -1,16 +1,11 @@
 import React from "react";
 import "./projects.css";
-import bgExperience from "../../assets/bg-3.jpg";
 import projectImg1 from "../../assets/project-01.png"
 import projectImg2 from "../../assets/project-02.png"
 
 const Projects = () => {
   return (
     <div className="projects">
-      <div className="experience-bg">
-        <img src={bgExperience} alt="" />
-      </div>
-
       <div className="projects-container">
         <h1 className="page-heading">Projects</h1>
         <div className="projects-inner-container">
@@ -21,7 +16,7 @@ const Projects = () => {
             </figure>
             <div className="project-contrrols">
               
-            <a href=""><button className="btn" disabled>Live view</button></a>
+            {/* <a href=""><button className="btn" disabled>Live view</button></a> */}
             <a href="https://github.com/RUTHIK-JORIGALA/AdornEdge-ecommerce-frontend"><button className="btn">Source code</button></a>
             </div>
           </div>

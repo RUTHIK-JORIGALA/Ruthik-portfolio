@@ -2,13 +2,37 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 .app{
   /* background-color: ; */
+  overflow-x: hidden;
   color: #000;
   font-family: "Geologica", sans-serif;
+  background-image: url("../src/assets/bg-1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  scroll-behavior: smooth;
 
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #3f3f3f, #3e3e3e);
+  border-radius: 5px;
+  border: 2px solid #fff;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-track {
+  background: #f0f0f0;
+  border-radius: 5px;
+}
+
 /* base: #8E9DA8 */
 /* grayesh-red : #4E363A */
 

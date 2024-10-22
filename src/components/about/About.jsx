@@ -1,14 +1,10 @@
 import React from 'react'
 import './about.css'
-import bgAbout from "../../assets/bg-5.jpg"
 import profile from "../../assets/ruthik.png"
 
 const About = () => {
   return (
     <div className='about' id='about'>
-        <div className="about-bg">
-            <img src={bgAbout} alt="about" />
-        </div>
         <div className="about-container">
             <h1 className='page-heading'>About</h1>
             <div className="about-inner-container">
@@ -18,6 +14,7 @@ const About = () => {
                 </div>
                 <div className="about-image">
                     <img src={profile} alt="" />
+                    <div class="fade"></div>
                 </div>
             </div>
         </div>

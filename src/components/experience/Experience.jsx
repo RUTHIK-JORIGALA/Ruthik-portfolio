@@ -1,14 +1,11 @@
 import React from 'react'
 import './experience.css'
-import bgExperience from "../../assets/bg-3.jpg"
 import lbLogo from "../../assets/Logo-03.jpg"
 
 const Experience = () => {
   return (
     <div className='experience' id='experience'>
-         <div className="experience-bg">
-            <img src={bgExperience} alt="" />
-        </div>
+
         <div className="experience-container">
           <h1 className='page-heading'>Experience</h1>
           

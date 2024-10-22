@@ -1,6 +1,5 @@
 import React from 'react'
 import './skills.css'
-import bgSkill from "../../assets/bg-2.jpg"
 import html from "../../assets/skills/html.png"
 import css from "../../assets/skills/css.png"
 import js from "../../assets/skills/js.png"
@@ -17,9 +16,6 @@ import redux from "../../assets/skills/redux.png"
 const Skills = () => {
   return (
     <div className='skills' >
-        <div className="skills-bg">
-            <img src={bgSkill} alt="" />
-        </div>
       <div className="skills-container" >
         <h1 className='page-heading'>SKILLS</h1>
 
